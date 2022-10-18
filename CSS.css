@@ -1,0 +1,166 @@
+/*
+UNIVERSIDADE FEDERAL DE SERGIPE
+Aluna: Mariana de Jesus Silva
+
+Tarefa 02
+    Segunda Avaliação
+*/
+body{
+    background: #abdcff;
+    font-family: 'Times New Roman', Times, serif; 
+    color: #006494;
+    margin:0px;
+    
+}
+
+h1{
+    text-align: center;
+    bottom: 15px;
+
+    color: #fff;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 
+        1px -1px 0 #2f5d87,
+        2px -2px 0 #2e5a83, 
+        3px -3px 0 #2d5880;
+}
+
+h2,h3{
+    text-align: center;   
+    margin:10px;
+    padding: 10pt;
+
+    color: #2f5d87;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+input,button{
+    text-align: justify;   
+    margin:10px;
+    background-color: #006494;
+    
+    font-family: 'Times New Roman', Times, serif; 
+    outline: none;
+    font-size:14px;
+    font-weight:700;
+    border:none;
+    padding:5px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+    background:006494;
+    color:#fff;
+    box-shadow:0 5px 0 #0078d4;
+    background:#0078d4;
+    box-shadow:0 5px 0 #004578;
+    
+}
+form{
+    margin:20px;
+    text-align: center;
+    background-color: #eff6fc;
+}
+
+div{
+    margin:0%;
+    /*opacity: 0.96;*/
+    background-color: #abdcff;
+    position: absolute;
+    width: 50%;
+    height: 110%;
+    top: 50%;
+    left: 25%;
+    right: 25%;
+    transform: translateY(-40%);  
+     
+}
+ 
+img {
+    position: relative;
+    width: 100%;
+    height: 200%;
+    margin: 0;
+    padding: 0;
+  }
+
+label{
+    text-align: center;   
+    margin:20px;
+    font-size:13px;
+    font-weight: bold;
+    transform: translateY(-20%); 
+    transform: translateX(20%);
+
+
+    font-family: 'Times New Roman', Times, serif; 
+    outline: none;
+    border:none;
+    padding: 3px;
+    display:inline-block;
+    text-decoration: none;
+    background:#eff6fc;
+
+}
+h{
+    padding:5px;
+    display:inline-block;
+    text-decoration: none;
+    background:006494;
+    color:#fff;
+    box-shadow:0 5px 0 #0078d4;
+    background:#0078d4;
+    box-shadow:0 5px 0 #004578;  
+}
+table, th, td{
+    border: 1px solid;
+    text-align: center;
+    
+    
+}
+th{
+    text-align: left;
+    height: 5px;
+    background-color: #0078d4;
+    color:white;
+}
+td{
+    height: 5px;
+    vertical-align: bottom;
+    
+}
+th,td{
+    padding: 5px;
+    text-align: center;
+    height: 3px;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #0078d4;
+            color:white;}/*Ao passar o mouse sobre a linha*/
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+table{
+    border: 1px solid;
+
+    font-size:14px;
+    font-weight: bold;
+    height: 0%;
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+
+    transform: translateY(-5%); 
+    transform: translateX(5%);
+
+    
+    box-shadow:0 5px 0 #0078d4;
+    box-shadow:0 5px 0 #004578;
+}
+

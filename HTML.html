@@ -1,0 +1,73 @@
+<!--
+UNIVERSIDADE FEDERAL DE SERGIPE
+Aluna: Mariana de Jesus Silva
+
+Tarefa 02
+    Segunda Avaliação
+-->
+
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/CSS.css" rel="stylesheet"> 
+    <title>Form</title>
+
+</head>
+<body>
+
+<!--<img src="/ufs.png"> -->
+<img src="/ufs-2.jpg">
+
+
+<div><!-- Painel -->
+<h1>UFS</h1>
+<h2>Informações Referentes ao Histórico Escolar</h2>
+
+
+    <form>
+        <h3>Insira o arquivo contendo o histórico escolar</h3>
+        <input type="file" name="photo_image" alt="submit"><br>
+        <button>Inserir</button>
+    </form>
+        <H2>Informações</H2>
+
+        <label>
+            <h>Média  CH</h>
+            <p>Qtd</p>
+        </label>
+
+        <label>
+            <h>Desvio Padrão </h><br>
+            <p>Qtd</p>
+        </label>
+        <label>
+            <h>Aprovações</h><br>
+            <p>Qtd</p>
+        </label>
+        <label>
+            <h> Reprovações</h><br>
+            <p>Qtd</p>
+        </label>
+        <label>
+            <h> CH Cursada</h><br>
+            <p>Qtd</p>
+        </label>
+
+
+        <table>
+            
+                <thead ><tr ><th colspan="2">Média de cada departamento</th></tr>
+                <tr><th>Departamento</th> <th>Média</th></tr></thead>
+                <tr><td>${departamento}</td> <td>${media}</td></tr>
+                <tr><td>${departamento}</td> <td>${media}</td></tr>
+                <tr><td>${departamento}</td> <td>${media}</td></tr>
+                <tr><td>${departamento}</td> <td>${media}</td></tr>
+
+        </table> 
+        
+</div> <!-- End Painel -->
+<link href="/JavaScript.js" rel="stylesheet"> 
+</body>
+</html>
